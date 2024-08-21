@@ -9,8 +9,8 @@
 </head>
 <body>
     <main class="justify-content-center align-itens-center">
-    <p>Repositorio de Estudo</p>
-    <span>Contruçâo de Software</span>
+    <h1><strong>Repositorio de Estudo</strong></h1>
+    <h3><span>Contruçâo de Software</span></h3>
 </main>
 
 </body>
