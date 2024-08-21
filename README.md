@@ -1,4 +1,3 @@
-# CC1N-CSW-2024-2
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +8,7 @@
 </head>
 <body>
     <main class="justify-content-center align-itens-center">
-    <h1><strong>Repositorio de Estudo</strong></h1>
+    <h1><strong>Repositorio de Estudo CC1N-CSW-2024-2</strong></h1>
     <h3><span>Contruçâo de Software</span></h3>
 </main>
 
