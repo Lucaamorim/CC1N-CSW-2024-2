@@ -10,6 +10,17 @@
     <main class="justify-content-center align-itens-center">
     <h1><strong>Repositorio de Estudo CC1N-CSW-2024-2</strong></h1>
     <h3><span>Contruçâo de Software</span></h3>
+    <h3 class="btn btn-dark">Professor Fabricio Ribeiro Ferreira</h3>
+
+        <h2>Resumo Aula 1:</h2>
+        <span>O que é HTML: Linguagem de Marcaçâo.</span>
+        <span>Tag: conjuto de palavras entre duas colcheias, onde a mesma possui atributs e valores, trazendo demais funçôes para a aplicaçâo especiifica da tag.</span>
+        Exemplos inportantes:
+Para criar um link: tag "<a>Contexto</a>" e usando o atributo "href="caminhopara.site.com", vamos testar abrindo o Youtube ?
+--<a href="https://www.youtube.com/">Youtube</a>, resultado:
+<a href="https://www.youtube.com/">Youtube</a>
+
+
 </main>
 
 </body>
