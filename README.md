@@ -16,7 +16,7 @@
     <span>Tag: conjuto de palavras entre duas colcheias, onde a mesma possui atributs e valores, trazendo demais funçôes para a aplicaçâo especiifica da tag.</span>
     <p>Exemplos inportantes:</p>
     <p>Para criar um link: tag "<a>Contexto</a>" e usando o atributo "href="caminhopara.site.com", vamos testar abrindo o Youtube ?
-    --<a href="https://www.youtube.com/">Youtube</a>, resultado:
+<!-- <a href="https://www.youtube.com/">Youtube</a> --> , resultado:
     <a href="https://www.youtube.com/">Youtube</a>
 
 
