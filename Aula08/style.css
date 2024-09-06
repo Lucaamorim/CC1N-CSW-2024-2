@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: unset;
+    overflow-x: unset;
+}
+
+.image{
+    position: absolute;
+    z-index: -1;
+    width: fit-content;
+    justify-content: center;
+}
+
+.main figcaption{
+padding-left: 100%;
+   text-align: center;
+   color: rgb(0, 0, 0);
+   font-size: 100px;
+   text-shadow: black 2px 5px 10px;
+   width: 100%;
+}
+
+.main{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+}
