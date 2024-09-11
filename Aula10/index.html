@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>AULA 10</title>
+</head>
+<body class="d-flex justify-content-center">
+    
+<div class="d-flex justify-content-center row w-75" >
+
+    <h1 class="d-flex justify-content-center">SUMÁRIO</h1>
+
+     <ol class="list-group list-group">
+        <li class="list-group-item d-flex justify-content-start align-items-start">
+            <div class="ms-2 me-auto"><h2>1. Introdução</h2>
+            </div></li>
+        <li class="list-group-item d-flex justify-content-start align-items-start">
+            <div class="ms-2 me-auto">
+            <h2>2. Ferramentas TIC UTILIZADAS NA GESTÃO DE BIBLIOTECAS</h2>
+            <h3> 2.1 Catálagos automáticos</h3>
+            <h3> 2.2 Repositórios Institucionais</h3>
+            <h3> 2.3 Postais e/ou bases de dados de informação cientifica</h3>
+            <h3> 2.4 Website</h3>
+            <h3> 2.5 Redes Sociais</h3>
+            <h3> 2.6 Outras ferramentas TIC</h3>
+              </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-start align-items-start">
+            <div class="ms-2 me-auto">
+                <h2>3. METODOLOGIA</h2>
+                <h3></h3>
+            </div></li>
+
+        <li class="list-group-item d-flex justify-content-start align-items-start">
+                <div class="ms-2 me-auto">
+                    <h2>4. FERRAMENTAS TI UTILIZADAS NA BIBLIOTECA ANA BOVE</h2>
+                    <h3>4.1 Sobre a Biblioteca Ana bove e sua instituicao mantenedora</h3>
+                    <h4>4.1.1 o IMIP</h4>
+                    <h4>4.1.2 A Biclioteca Ana</h4>
+                </div></li>   
+      </ol>
+
+</div>
+
+<hr>
+
+<code>
+    <div class="container">
+        <h1 class="mt-5">Conversor de Celsius para Fahrenheit</h1>
+        <form method="post" class="mt-3">
+            <div class="form-group">
+                <label for="celsius">Temperatura em Celsius:</label>
+                <input type="text" class="form-control" id="celsius" name="celsius" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Converter</button>
+        </form>
+        {% if fahrenheit is not none %}
+            <div class="mt-4">
+                {% if fahrenheit == 'Invalid input' %}
+                    <div class="alert alert-danger">Entrada inválida. Por favor, insira um número válido.</div>
+                {% else %}
+                    <h3>Resultado:</h3>
+                    <p class="lead">{{ fahrenheit }} &deg;F</p>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+</code>
+
+</body>
+</html>
