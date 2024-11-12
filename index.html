@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h1 >Ola mudo</h1>
+    <br>
+    <p id="resposta"></p>
+
+    <input id="inputUser" type="datetime" size="60"> <button onclick="enviarResposta()" > Enviar </button>
+
+    <p><input type="checkbox" name="box" id=""> Sou Negro</p>
+
+    <p><input type="datetime" name="" id="" disabled ></p>
+
+    <input id="inputUser" type="datetime" size="60">
+    
+    <form action="" method="get">
+    <p>Nome<input type="text" id="nome"> </p>
+    <p>Sobrenome<input type="text" id="sobre"> </p>
+    <button onclick="enviarNome()" type="submit"> Enviar </button>
+    </form>
+
+    <script type="text/JavaScript">
+
+    window.alert("Usando JavaScript")
+
+    window.confirm("Deseja Cancelar sua Inscrição")
+    
+    document.writeln("Usando JavaScript 2");
+
+    document.getElementById('resposta').innerHTML= 'Resposta de Saida';
+
+    function enviarResposta() {
+
+    var IU = document.getElementById('inputUser').value;
+    window.alert('Foi DIgitado' + IU)
+        
+    };
+
+    function enviarNome() {
+
+    var nomeID = document.getElementById('nome').value;
+    var sobreID = document.getElementById('sobre').value;
+
+    window.alert('Foi DIgitado' + nomeID + ' ' +sobreID)
+        
+    };
+
+    </script>
+
+
+</body>
+</html>
